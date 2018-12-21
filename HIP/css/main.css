@@ -238,7 +238,7 @@ section.wrapper article header
     color: inherit;
     display: inline-block;
     font-size: 1em;
-    padding: 0 0.75em;
+    padding: 0 0.2em 0 0.75em;
     text-decoration: none;
     transition: color 0.2s ease-in-out;
 }
@@ -281,10 +281,7 @@ section.wrapper article header
 /*banner*/
 #banner
 {
-    padding-top: 5em;
-    padding-right: 0;
-    padding-left: 0;
-    padding-bottom: 9em;
+    padding: 5em 0 9em;
     position: relative;
     text-align: center;
 }
@@ -318,10 +315,7 @@ section.wrapper article header
 {
     #banner
     {
-        padding-top: 5em;
-        padding-right: 0;
-        padding-left: 0;
-        padding-bottom: 6em;
+        padding: 5em 0 6em;
     }
     #banner .inner
     {
@@ -393,7 +387,6 @@ section.wrapper article header
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     max-width: 600px;
-
 }
 .grid-container2 {
     grid-template-columns: 1fr 1fr;
@@ -491,7 +484,6 @@ input[type=email], select, textarea {
     width: 100%;
     max-width: 640px;
     margin: auto ;
-
 }
 /*projecten*/
 .text1 {
