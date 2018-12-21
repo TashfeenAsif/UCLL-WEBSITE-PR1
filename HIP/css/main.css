@@ -238,7 +238,7 @@ section.wrapper article header
     color: inherit;
     display: inline-block;
     font-size: 1em;
-    padding: 0 0.2em 0 0.75em;
+    padding-left: 0.5em;
     text-decoration: none;
     transition: color 0.2s ease-in-out;
 }
@@ -246,15 +246,14 @@ section.wrapper article header
 {
     color: #ffD662;
 }
-#header a:last-child
-{
-    padding-right: 0;
-}
 @media screen and (max-width:736px)
 {
     #header a
     {
-        padding: 0 0.5em;
+        padding-top: 0;
+        padding-right: 0.2em;
+        padding-left: 0.5em;
+        padding-bottom: 0;
     }
 }
 @media screen and (max-width:980px)
