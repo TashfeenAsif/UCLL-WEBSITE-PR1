@@ -25,6 +25,7 @@ body, html
 {
     height: auto;
     width: 100px;
+
 }
 .fa
 {
@@ -41,12 +42,12 @@ body, html
 }
 .fa-facebook
 {
-    background: #6cc091;
+    background: #245638;
     color: #3B5998;
 }
 .fa-instagram
 {
-    background: #6cc091;
+    background: #245638;
     color: white;
 }
 body
@@ -78,7 +79,7 @@ body
 }
 a
 {
-    color: #6cc091;
+    color: #245638;
     text-decoration: underline;
 }
 a:hover
@@ -250,10 +251,7 @@ section.wrapper article header
 {
     #header a
     {
-        padding-top: 0;
-        padding-right: 0.2em;
-        padding-left: 0.5em;
-        padding-bottom: 0;
+        padding: 0 0.2em 0 0.5em;
     }
 }
 @media screen and (max-width:980px)
@@ -274,7 +272,7 @@ section.wrapper article header
 {
     #header
     {
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
 }
 /*banner*/
@@ -286,7 +284,7 @@ section.wrapper article header
 }
 #banner:before
 {
-    background: #6cc091;
+    background: #245638;
     content: '';
     height: 100%;
     left: 0;
@@ -366,7 +364,7 @@ section.wrapper article header
 /*footer*/
 #footer
 {
-    background: #6cc091;
+    background: #245638;
     color: #fff;
     padding: 2em 0 1em;
     text-align: center;
@@ -398,8 +396,8 @@ section.wrapper article header
 }
 .grid-item {
     padding: 0.3em;
-    color: #6cc091;
-    border: 3px solid #6cc091;
+    color: #245638;
+    border: 3px solid #245638;
 }
 .fotoverkoop{
     display: block;
@@ -410,7 +408,7 @@ section.wrapper article header
 /* Contact*/
 input[type=text], select, textarea
 {
-    border: 1px solid #6cc091;
+    border: 1px solid #245638;
     border-radius: 4px;
     box-sizing: border-box;
     margin-bottom: 16px;
@@ -421,7 +419,7 @@ input[type=text], select, textarea
 }
 input[type=submit]
 {
-    background-color: #6cc091;
+    background-color: #245638;
     border: none;
     border-radius: 4px;
     color: white;
@@ -430,10 +428,11 @@ input[type=submit]
 }
 input[type=submit]:hover
 {
-    background-color: #6cc091;
+    background-color: #245638;
+    color: #ffD662;
 }
 input[type=tel], select, textarea {
-    border: 1px solid #6cc091;
+    border: 1px solid #245638;
     border-radius: 4px;
     box-sizing: border-box;
     margin-bottom: 16px;
@@ -442,7 +441,7 @@ input[type=tel], select, textarea {
     resize: vertical;
 }
 input[type=email], select, textarea {
-    border: 1px solid #6cc091;
+    border: 1px solid #245638;
     border-radius: 4px;
     box-sizing: border-box;
     margin-bottom: 16px;
@@ -466,13 +465,13 @@ input[type=email], select, textarea {
 
 }
 .grid-item4 {
-    color: #6cc091;
-    border: 3px solid #6cc091;
+    color: #245638;
+    border: 3px solid #245638;
 }
 .text
 {
     background-color: #FFFFFF;
-    color: #6cc091;
+    color: #245638;
     float: right;
     font-size: large;
     padding: 2em;
@@ -486,7 +485,7 @@ input[type=email], select, textarea {
 }
 /*projecten*/
 .text1 {
-    color: #6cc091;
+    color: #245638;
     font-size: large;
     padding-top: 2em;
     padding-right: 2em;
